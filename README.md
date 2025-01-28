@@ -1,7 +1,7 @@
 # Emotion-Aware AI Chatbot
 
 ## Overview
-This project is an **Emotion-Aware AI Chatbot** that integrates **Frontend (React/Flutter), Backend (Flask), and AI Model (Gemini API)** to provide responses based on psychological parameters from **Psi Theory**. It analyzes user messages, considers emotional states, and generates responses accordingly.
+This project is an **Emotion-Aware AI Chatbot** that integrates **Frontend (Flutter), Backend (Flask), and AI Model (Gemini API)** to provide responses based on psychological parameters from **Psi Theory**. It analyzes user messages, considers emotional states, and generates responses accordingly.
 
 ## Features
 - **Emotion-Aware Response Generation**: Uses **Psi Theory** parameters to tailor chatbot responses.
@@ -13,7 +13,7 @@ This project is an **Emotion-Aware AI Chatbot** that integrates **Frontend (Reac
 ---
 
 ## Tech Stack
-### **Frontend** (React/Flutter)
+### **Frontend** (Flutter)
 - UI for user interaction
 - Sends user messages to the backend
 - Displays chatbot responses
@@ -33,8 +33,8 @@ This project is an **Emotion-Aware AI Chatbot** that integrates **Frontend (Reac
 ## Installation & Setup
 ### **1. Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/emotion-ai-chatbot.git
-cd emotion-ai-chatbot
+git clone https://github.com/yohannesalex/emotion_Ai_chatbot
+cd emotion_Ai_chatbot
 ```
 
 ### **2. Backend Setup (Flask)**
@@ -53,16 +53,12 @@ GEMINI_API_KEY=your_api_key_here
 python app.py
 ```
 
-### **3. Frontend Setup (React/Flutter)**
-#### **React Setup**
-```sh
-cd frontend
-npm install
-npm start
-```
+### **3. Frontend Setup (Flutter)**
+
 #### **Flutter Setup**
 ```sh
-cd frontend_flutter
+cd frontend
+cd chat_ui
 flutter pub get
 flutter run
 ```
@@ -118,8 +114,7 @@ flutter run
 ---
 
 ## Contributors
-- **Yohannes Alemayehu** (AI Model & Backend)
-- **[Your Team]** (Frontend & Integration)
+- **Yohannes Alemayehu** (AI Model & Backend & Frontend)
 
 ---
 
