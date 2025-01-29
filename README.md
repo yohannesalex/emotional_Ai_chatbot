@@ -1,7 +1,7 @@
 # Emotion-Aware AI Chatbot
 
 ## Overview
-This project is an **Emotion-Aware AI Chatbot** that integrates **Frontend (React/Flutter), Backend (Flask), and AI Model (Gemini API)** to provide responses based on psychological parameters from **Psi Theory**. It analyzes user messages, considers emotional states, and generates responses accordingly.
+This project is an **Emotion-Aware AI Chatbot** that integrates **Frontend (Flutter), Backend (Flask), and AI Model (Gemini API)** to provide responses based on psychological parameters from **Psi Theory**. It analyzes user messages, considers emotional states, and generates responses accordingly.
 
 ## Features
 - **Emotion-Aware Response Generation**: Uses **Psi Theory** parameters to tailor chatbot responses.
