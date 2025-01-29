@@ -1,3 +1,4 @@
 class Uris {
-  static const baseUrl = 'http://127.0.0.1:5000/generate_response';
+  static const baseUrl =
+      'https://emotional-ai-chatbot-2.onrender.com/generate_response';
 }
