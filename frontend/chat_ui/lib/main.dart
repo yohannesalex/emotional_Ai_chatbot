@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'features/chat/presentation/bloc/chat_bloc.dart';
 import 'features/chat/presentation/bloc/parameters_bloc.dart';
+import 'features/chat/presentation/pages/welcom.dart';
 import 'injection_container.dart';
 import 'injection_container.dart' as di;
 
@@ -26,9 +27,11 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
-        initialRoute: '/home',
+        initialRoute: '/welcome',
         onGenerateRoute: (settings) {
           switch (settings.name) {
+            case '/welcome':
+              return _buildPageRoute(WelcomePage());
             case '/home':
               return _buildPageRoute(ChatScreen());
             default:
