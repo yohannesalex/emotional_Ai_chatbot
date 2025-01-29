@@ -2,6 +2,20 @@
 
 ## Overview
 This project is an **Emotion-Aware AI Chatbot** that integrates **Frontend (Flutter), Backend (Flask), and AI Model (Gemini API)** to provide responses based on psychological parameters from **Psi Theory**. It analyzes user messages, considers emotional states, and generates responses accordingly.
+### here are basic cinsepts of Donor Psi theory to be familiar
+#### Parameters
+  Valence Level: Measures the spectrum of attraction (appetence) vs. aversion; corresponds to positive vs. negative reinforcement.
+  Arousal Level: Reflects the agent’s readiness for action, similar to the function of the ascending reticular formation in humans.
+  Selection Threshold: Indicates how easily the agent shifts between different intentions or balances multiple goals; reflects the dynamics of motive dominance. A higher selection threshold means the agent shifts less easily.
+  Resolution Level: Describes the agent’s accuracy in perceiving the world, ranging from detailed cognition to rapid perception.
+  Goal-Directedness: Represents the stability of the agent's motives; indicates how strongly the agent prioritizes its goals versus adapting or 'going with the flow.'
+  Securing Rate: Refers to the frequency with which the agent checks its environment; involves reflective and orientation behaviors.
+  Sample of Five Emotions (Directed Affect Plus Modulation) 
+#### According to Psi Theory:
+  
+Anger: Arises when an obstacle (often another agent) clearly prevents the achievement of a relevant goal. Characteristics: negative valence, high arousal, low resolution level, high action-readiness, high selection   t        threshold, and goal redirection to counter the obstacle.
+Sadness: Occurs when all perceived paths to achieving active, relevant goals are blocked, without a specific obstacle. Characteristics: negative valence, low arousal, decreased action-readiness due to goal inhibition, and an increased demand for affiliation (support-seeking behavior).
+
 
 ## Features
 - **Emotion-Aware Response Generation**: Uses **Psi Theory** parameters to tailor chatbot responses.
