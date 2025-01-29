@@ -28,9 +28,9 @@ Sadness: Occurs when all perceived paths to achieving active, relevant goals are
 
 ## Tech Stack
 ### **Frontend** (Flutter)
-- UI for user interaction
-- Sends user messages to the backend
-- Displays chatbot responses
+- UI for user interaction to contron the psi parameters from scale of 1 - 7 using slider use the edit icon on the top of home page
+- Sends user messages with parameters to the backend
+- Displays chatbot responses with the calculated anger and sadness level from scale of 1 to 5
 
 ### **Backend** (Flask API)
 - Handles requests from the frontend
